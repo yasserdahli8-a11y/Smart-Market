@@ -43,8 +43,7 @@ Sécurité
 
 ---
 
-## 📁 Structure du projet
-
+## 📁 Structure du projet 
 smart-market/
 ├── index.php              # Page d'accueil
 ├── products.html          # Catalogue produits
