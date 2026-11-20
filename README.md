@@ -98,10 +98,10 @@ php -S localhost:8000
 
 Nehal Chalabia — Étudiante en Licence Informatique
 
-📧 [chalabianehal36@gmail.com](mailto:chalabianehal36@gmail.com)  
+📧 [yasserdahli8@gmail.com](mailto:yasserdahli8@gmail.com)  
 🌐 [Site en ligne](https://smartmaket.free.nf)  
-🐙 [GitHub](https://github.com/chalabianehal36-lgtm)  
-🚀 [Dépôt du projet](https://github.com/chalabianehal36-lgtm/smart-market)
+🐙 [GitHub](https://github.com/yasserdahli8-a11y)  
+🚀 [Dépôt du projet](https://github.com/yasserdahli8-a11y/smart-market)
 ---
 
 © 2026 Smart Market | Projet Informatique
