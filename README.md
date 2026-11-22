@@ -60,7 +60,7 @@ Sécurité
 ---
 
 ## 📁 Structure du projet
-
+---
 smart-market/
 ├── index.php               # Page d'accueil
 ├── products.html           # Catalogue produits
@@ -84,7 +84,7 @@ smart-market/
 ---
 
 ## 🗄️ Schéma de la base de données
-
+---
 users         (id, nom, prenom, email, password, phone, address)
 products      (id, name, description, price, image, colors, stock, category_id)
 categories    (id, name)
