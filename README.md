@@ -98,19 +98,23 @@ payments      (id, order_id, amount, status, payment_method, created_at)
 ## ⚙️ Installation locale
 
 1. Cloner le dépôt
-
+~~~bash
 git clone https://github.com/yasserdahli8-a11y/Smart-Market.git
 cd Smart-Market
+~~~
 2. Configurer la base de données
-
+~~~bash
 cp db.php db.local.php
 # Modifier db.local.php avec vos identifiants
+~~~
 3. Importer le schéma SQL
-
+~~~bash
 mysql -u root -p votre_base < schema.sql
+~~~
 4. Lancer un serveur local
-
+~~~bash
 php -S localhost:8000
+~~~
 ---
 
 ## 👨‍💻 Auteur
