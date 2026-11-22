@@ -1,11 +1,24 @@
 # 🛒 Smart Market — Plateforme E-Commerce
+
 > Projet de fin d'études — Licence en Informatique — Application web e-commerce complète
 
-🌐 Site en ligne : [smartmaket.free.nf](https://smartmaket.free.nf)
+🌐 Site en ligne : [smartmaket.free.nf](http://smartmaket.free.nf)
 
-[![PHP](https://img.shields.io/badge/PHP-8.0-blue)](https://php.net)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)](https://mysql.com)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+
+
+![PHP](https://img.shields.io/badge/PHP-8-777BB4?logo=php&logoColor=white)
+
+
+
+
+![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
+
+
+
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+
+
 
 ---
 
@@ -27,15 +40,18 @@
 ## 🛠️ Technologies utilisées
 
 Frontend
+
 - HTML5, CSS3 (glassmorphism, animations)
 - JavaScript Vanilla (ES6+)
 - Font Awesome 6, Google Fonts
 
 Backend
+
 - PHP 8 (API REST)
 - MySQL 8 (transactions, prepared statements)
 
 Sécurité
+
 - password_hash() / password_verify() pour les mots de passe
 - Sessions PHP sécurisées (session_regenerate_id)
 - Requêtes préparées (protection contre SQL injection)
@@ -43,27 +59,28 @@ Sécurité
 
 ---
 
-## 📁 Structure du projet 
+## 📁 Structure du projet
+
 smart-market/
-├── index.php              # Page d'accueil
-├── products.html          # Catalogue produits
-├── product.html           # Détail produit
-├── cart.html              # Panier
-├── payment.html           # Paiement
-├── profile.html           # Profil utilisateur
-├── login.html         # Connexion / Inscription
+├── index.php               # Page d'accueil
+├── products.html           # Catalogue produits
+├── product.html            # Détail produit
+├── cart.html               # Panier
+├── payment.html            # Paiement
+├── profile.html            # Profil utilisateur
+├── login.html              # Connexion / Inscription
 │
-├── login.php              # API — Authentification
-├── signup.php             # API — Inscription
-├── getProducts.php        # API — Liste des produits
-├── getProduct.php         # API — Détail produit
-├── placeOrder.php         # API — Passer une commande
-├── update_user.php        # API — Modifier le profil
-├── update_password.php    # API — Modifier le mot de passe
-├── get_user.php           # API — Données utilisateur
-├── select.php             # API — Filtrage par catégorie
+├── login.php               # API — Authentification
+├── signup.php              # API — Inscription
+├── getProducts.php         # API — Liste des produits
+├── getProduct.php          # API — Détail produit
+├── placeOrder.php          # API — Passer une commande
+├── update_user.php         # API — Modifier le profil
+├── update_password.php     # API — Modifier le mot de passe
+├── get_user.php            # API — Données utilisateur
+├── select.php              # API — Filtrage par catégorie
 │
-└── db.php                 # Configuration base de données
+└── db.php                  # Configuration base de données
 ---
 
 ## 🗄️ Schéma de la base de données
@@ -78,29 +95,31 @@ payments      (id, order_id, amount, status, payment_method, created_at)
 
 ## ⚙️ Installation locale
 
-# 1. Cloner le dépôt
-git clone https://github.com/chalabianehal36-lgtm/smart-market.git
-cd smart-market
+1. Cloner le dépôt
 
-# 2. Configurer la base de données
+git clone https://github.com/yasserdahli8-a11y/Smart-Market.git
+cd Smart-Market
+2. Configurer la base de données
+
 cp db.php db.local.php
 # Modifier db.local.php avec vos identifiants
+3. Importer le schéma SQL
 
-# 3. Importer le schéma SQL
 mysql -u root -p votre_base < schema.sql
+4. Lancer un serveur local
 
-# 4. Lancer un serveur local
 php -S localhost:8000
 ---
 
-## 👩‍💻 Auteur
+## 👨‍💻 Auteur
 
-Nehal Chalabia — Étudiante en Licence Informatique
+Dahli Yasser — Étudiant en Licence Informatique
 
-📧 [yasserdahli8@gmail.com](mailto:yasserdahli8@gmail.com)  
-🌐 [Site en ligne](https://smartmaket.free.nf)  
-🐙 [GitHub](https://github.com/yasserdahli8-a11y)  
-🚀 [Dépôt du projet](https://github.com/yasserdahli8-a11y/smart-market)
+- 📧 [yasserdahli8@gmail.com](mailto:yasserdahli8@gmail.com)
+- 🌐 [Site en ligne](http://smartmaket.free.nf)
+- 🐙 [GitHub](https://github.com/yasserdahli8-a11y)
+- 🚀 [Dépôt du projet](https://github.com/yasserdahli8-a11y/Smart-Market)
+
 ---
 
 © 2026 Smart Market | Projet Informatique
