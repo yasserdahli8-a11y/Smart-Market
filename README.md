@@ -60,7 +60,7 @@ Sécurité
 ---
 
 ## 📁 Structure du projet
----
+~~~
 smart-market/
 ├── index.php               # Page d'accueil
 ├── products.html           # Catalogue produits
@@ -81,16 +81,18 @@ smart-market/
 ├── select.php              # API — Filtrage par catégorie
 │
 └── db.php                  # Configuration base de données
+~~~
 ---
 
 ## 🗄️ Schéma de la base de données
----
+~~~
 users         (id, nom, prenom, email, password, phone, address)
 products      (id, name, description, price, image, colors, stock, category_id)
 categories    (id, name)
 orders        (id, user_id, name, phone, address, total, status, created_at)
 order_items   (id, order_id, product_id, quantity, price)
 payments      (id, order_id, amount, status, payment_method, created_at)
+~~~
 ---
 
 ## ⚙️ Installation locale
